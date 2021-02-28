@@ -1,3 +1,88 @@
+html{
+    width:100%;
+    height:100%;
+    background: url('./background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    .wrap {
+        position:absolute;
+        width:100%;
+        overflow:scroll;
+        }
+
 body {
-    background: blue;
+    font-family: Trebuchet MS, sans-serif;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px lightgray,
+             2px 2px 1px whitesmoke;
+  }
+  
+  nav { 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15%;
+    font-size: 20px;
+  }
+
+  nav > a:link {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  nav > a { 
+    color: white;
+  }
+
+  nav > a:hover {
+    color: lightgrey;
+  }
+
+  h2 + p {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+
+  h2 {
+    padding-top: 50px;
+  }
+
+  ul {
+    padding-bottom: 100px;
+  }
+
+  div {
+    float: inline-start;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: grey;
   }
